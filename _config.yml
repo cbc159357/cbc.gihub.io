@@ -129,5 +129,5 @@ tag_plugins:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type:  git
-  repo:  https://github.com/cbc159357/cbc159357.github.io.git
+  repo:  https://github.com/cbc159357/cbc.159357.github.io.git
   branch:  main
