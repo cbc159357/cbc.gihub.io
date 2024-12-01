@@ -1,0 +1,37 @@
+---
+title: link
+date: 2024-12-01 13:40:06
+---
+- class_name: 1.技术支持
+  class_desc: 本网站的搭建由以下开源作者提供技术支持
+  link_list: 
+    - name: Hexo 
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网志框架
+      siteshot: https://source.fomal.cc/siteshot/hexo.io.jpg
+      
+- class_name: 2.友情链接
+  class_desc: 一些好朋友~~
+  link_list:
+    - name: Fomalhaut🥝
+      link: https://fomal.cc/
+      avatar: /assets/head.jpg
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+
+
+      {% gallery %} 
+![p1]( https://source.fomal.cc/img/default_cover_1.webp ) 
+![p2]( https://source.fomal.cc/img/default_cover_2.webp ) 
+![p3]( https://source.fomal.cc/img/default_cover_3.webp ) 
+![p4]( https://source.fomal.cc/img/default_cover_4.webp ) 
+![p5]( https://source.fomal.cc/img/default_cover_5.webp ) 
+![p6]( https://source.fomal.cc/img/default_cover_6.webp ) 
+![p7]( https://source.fomal.cc/img/default_cover_7.webp ) 
+![p8]( https://source.fomal.cc/img/default_cover_8.webp ) 
+![p9]( https://source.fomal.cc/img/default_cover_9.webp ) 
+![p10]( https://source.fomal.cc/img/default_cover_10.webp ) 
+![p11]( https://source.fomal.cc/img/default_cover_11.webp ) 
+![p12]( https://source.fomal.cc/img/default_cover_12.webp ) 
+{% endgallery %}
