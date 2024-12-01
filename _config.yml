@@ -130,4 +130,4 @@ tag_plugins:
 deploy:
   type:  git
   repo:  https://github.com/cbc159357/cbc.159357.github.io.git
-  branch:  main
+  branch:  gh-pages
