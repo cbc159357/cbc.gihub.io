@@ -22,7 +22,7 @@ katex:
 aplayer:
 highlight_shrink:
 aside:
-sticky: 1
+sticky: 
 ---
 
 # CSS样式

@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://cbc159357.github.io/cbc159357.github.io
-root: /cbc159357.github.io/
+url: https://cbc159357.github.io
+#root: /blog-demo/
 
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -130,6 +130,6 @@ tag_plugins:
 deploy:
   type:  git
   repo:  https://github.com/cbc159357/cbc159357.github.io.git
-  branch:  gh-pages
+  branch: main
 
   

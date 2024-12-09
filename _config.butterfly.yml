@@ -1016,16 +1016,15 @@ inject:
     - <link rel="stylesheet" href="/css/universe.css">
     - <link rel="stylesheet" href="/css/readPercent.css">
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    
   bottom:
     - <script defer src="/js/cursor.js"></script>
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
     - <script defer data-pjax src="/js/readPercent.js"></script>
-    - <canvas id="snow"></canvas> # 雪花画布  
-    - <script async src="/js/snow.js"></script> # 雪花特效
     - <script async src="/js/title.js"></script>
-  
-
+    - <script async src="/js/snow.js"></script>  # 雪花特效
+    - <canvas id="snow"></canvas>  # 雪花画布
 # Snackbar - Toast Notification
 # https://github.com/polonel/SnackBar
 # position: top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
@@ -1094,7 +1093,7 @@ CDN:
   # Note: Dev version can only use 'local' for internal scripts
   # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: jsdelivr
+  third_party_provider: cdnjs
 
   # Add version number to url, true or false
   version: false
